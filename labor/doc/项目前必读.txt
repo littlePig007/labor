@@ -1,0 +1,22 @@
+1、启动服务器前请修改各种配置文件的数据库连接的用户名、密码
+
+2、编程时请注意编写注释！！！其他同学还要看所以最好加上注释和作者
+
+3、拼音简称对照表
+中文	  数据表名	内存表
+单位性质  cdl_orgtype  OrgtypeOperation
+经济类型	  cdg_orgtype	RegtypeOperation
+单位行业	  cdg_industry  IndustryOperation
+行政区划	  cdg_regioncode RegioncodeOperation
+
+4、全国的省、市、县下拉列表Controller已经写好了，个人登记的时候应该会用到
+
+5、项目和sql脚本需要重新导入和执行一次！！！SQL脚本一些字段类型改动挺大的，包括主键自增、时间类型、登记有效期，改了字段之后需要重新生成PO、dao、Mapper文件
+
+6、名字不好辨认可以看PowerDesigner的物理ER图，忽略字段类型
+
+
+
+
+
+
